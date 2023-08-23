@@ -1,16 +1,19 @@
 package com.app.service;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.transaction.Transactional;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.ui.ModelMap;
-import org.springframework.web.client.ResourceAccessException;
 
-import com.app.DTO.UserDto;
 import com.app.DTO.ApiResponse;
 import com.app.DTO.UpdateDto;
+import com.app.DTO.UserDto;
+import com.app.DTO.UserDtoList;
 import com.app.entities.User;
 import com.app.exc_handler.ResourceNotFoundException;
 import com.app.repository.UserRepository;
@@ -42,10 +45,25 @@ private ModelMapper mapper;
 
 
 	@Override
+	// update partial details of user
 	public ApiResponse updatePartialDetails(UpdateDto user) {
 		User userDetails = mapper.map(user, User.class);
 		userRepo.save(userDetails);
 		return new ApiResponse("details update successfully");
 	}
+
+
+	@Override
+	 //getting list of all users
+	public List<UserDtoList> getAllRegisterUsers() {
+		List<User> list = userRepo.findAll();
+		
+		List<UserDtoList> userlist = new ArrayList<UserDtoList>();
+		for(User user : list) {
+			userlist.add(mapper.map(user, UserDtoList.class));
+		}
+         return userlist;
+		
+	} 
 
 }

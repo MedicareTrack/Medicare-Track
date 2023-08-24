@@ -15,7 +15,8 @@ A Ecommerce Website made with React.js Framework.
 
 ## Screenshots
 
-![App Screenshot](https://postimg.cc/62SDbX7Z)
+![project](https://github.com/MedicareTrack/Medicare-Track/assets/138775873/6baade9c-6e5e-4c2c-ae8d-3e332e067ca4)
+
 
 
 

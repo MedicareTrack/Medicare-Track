@@ -20,6 +20,8 @@ REGISTER PAGE
 ![Register](https://github.com/MedicareTrack/Medicare-Track/assets/138775873/d73a61fb-5dd9-42df-94ad-66ad5fabfc7f)
 LOGIN PAGE
 ![login page](https://github.com/MedicareTrack/Medicare-Track/assets/138775873/80914c51-641a-4ec8-b76d-69ba033ddd7b)
+LATEST PRODUCT
+![Latest Product](https://github.com/MedicareTrack/Medicare-Track/assets/138775873/43a89ede-e19a-4c1f-920b-ceb3d5fe68ae)
 
 
 ## Run Locally

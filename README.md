@@ -22,8 +22,8 @@ LOGIN PAGE
 ![login page](https://github.com/MedicareTrack/Medicare-Track/assets/138775873/80914c51-641a-4ec8-b76d-69ba033ddd7b)
 LATEST PRODUCT
 ![Latest Product](https://github.com/MedicareTrack/Medicare-Track/assets/138775873/43a89ede-e19a-4c1f-920b-ceb3d5fe68ae)
-CONTACT US
-![Contact Us](https://github.com/MedicareTrack/Medicare-Track/assets/94705687/3dfd4a3d-bfaa-46eb-bb3c-b665a0c0af89)
+ABOUT US
+![About Us](https://github.com/MedicareTrack/Medicare-Track/assets/94705687/30ab1644-8908-4fb7-82bb-d76d6997fbe1)
 
 
 ## Run Locally
